@@ -1,2 +1,2 @@
 # DRIPSTOCK
-Sistema de Gestão para Loja Streetwear
+Plataforma híbrida de gestão + catálogo streetwear

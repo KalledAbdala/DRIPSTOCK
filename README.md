@@ -158,7 +158,7 @@ dripstock/
 
 Desenvolvido por **Kalled Abdala** como projeto de estudo no caminho para se tornar desenvolvedor backend Java.
 
-[LinkedIn](www.linkedin.com/in/kalledabdala
+[LinkedIn](https://www.linkedin.com/in/kalledabdala/
 ) · [GitHub](https://github.com/KalledAbdala)
 
 ## Licença

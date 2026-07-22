@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: dripstock-db
+    environment:
+      POSTGRES_DB: dripstock
+      POSTGRES_USER: dripstock_user
+      POSTGRES_PASSWORD: dripstock123
+    ports:
+      - "5432:5432"
+    volumes:
+      - dripstock_data:/var/lib/postgresql/data
+
+volumes:
+  dripstock_data:

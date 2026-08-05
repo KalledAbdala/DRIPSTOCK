@@ -1,10 +1,11 @@
 package com.dripstock.service;
 
-import com.dripstock.model.Product;
-import com.dripstock.repository.ProductRepository;
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.dripstock.model.Product;
+import com.dripstock.repository.ProductRepository;
 
 @Service
 public class ProductService {
@@ -23,7 +24,7 @@ public class ProductService {
         return productRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Produto não encontrado com id: " + id));
     }
-
+    
     public List<Product> findByCategory(String category) {
         return productRepository.findByCategory(category);
     }
